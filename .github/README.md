@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-mediapackagev2`](https://www.npmjs.com/package/@aws-sdk/client-mediapackagev2/v/3.886.0).
+[`@aws-sdk/client-mediapackagev2`](https://www.npmjs.com/package/@aws-sdk/client-mediapackagev2/v/3.887.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mediapackagev2@3.886.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mediapackagev2@3.887.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-GqMo/T13NgRaGQUoX05JA5xZZM69N0RG9GJM3BlR1jjwuSSZgen43ahwb2yRoU5U
+sha384-kuF70QjQQ0KDszw+zMx8jv9YWrxIb3kG6xSGNmPKcSfbR2fyGI2bDjpy6wU9LAe5
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-mediapackagev2": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mediapackagev2@3.886.0/index.min.mjs"
+            "@aws-sdk/client-mediapackagev2": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mediapackagev2@3.887.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mediapackagev2@3.886.0/index.min.mjs": "sha384-GqMo/T13NgRaGQUoX05JA5xZZM69N0RG9GJM3BlR1jjwuSSZgen43ahwb2yRoU5U"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mediapackagev2@3.887.0/index.min.mjs": "sha384-kuF70QjQQ0KDszw+zMx8jv9YWrxIb3kG6xSGNmPKcSfbR2fyGI2bDjpy6wU9LAe5"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-mediapackagev2": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mediapackagev2@3.886.0/index.min.mjs"
+                        "@aws-sdk/client-mediapackagev2": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mediapackagev2@3.887.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mediapackagev2@3.886.0/index.min.mjs": "sha384-GqMo/T13NgRaGQUoX05JA5xZZM69N0RG9GJM3BlR1jjwuSSZgen43ahwb2yRoU5U"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mediapackagev2@3.887.0/index.min.mjs": "sha384-kuF70QjQQ0KDszw+zMx8jv9YWrxIb3kG6xSGNmPKcSfbR2fyGI2bDjpy6wU9LAe5"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.886.0`)
+* Always pin to a specific version (`@3.887.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-mediapackagev2/blob/refs/tags/3.886.0/LICENSE
+https://github.com/cloud-sdk-builds/client-mediapackagev2/blob/refs/tags/3.887.0/LICENSE
 ```
 
 ---
